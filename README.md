@@ -4,6 +4,10 @@
 
 This project is a checkbox tree facet component built using React. It's designed to display a tree of checkboxes with name and quantities of the brand category, allowing users to quickly refine their options without losing their way or scrolling through irrelevant products.
 
+## Demo
+
+https://checkbox-tree-facet.vercel.app/
+
 ## Installation
 
 To install the project, simply run `yarn install` to install the required packages.
