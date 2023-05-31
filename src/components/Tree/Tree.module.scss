@@ -1,0 +1,36 @@
+.selectedCategory {
+  background-color: rgb(16, 138, 0);
+  border-radius: 12px;
+  padding: 4px 12px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.9;
+  }
+}
+
+.removeAll {
+  color: rgb(16, 138, 0);
+  font-weight: 500;
+  font-size: 12px;
+  cursor: pointer;
+  margin-left: 8px;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.9;
+  }
+}

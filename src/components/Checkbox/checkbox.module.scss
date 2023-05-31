@@ -1,0 +1,36 @@
+.checkbox {
+  $color: #2b78d7;
+  $size: 16px;
+  $fontSize: 14px;
+  width: $size;
+  height: $size;
+  display: inline-block;
+  background-color: lighten($color, 40%);
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: $fontSize;
+  position: relative;
+  border: 1px solid white;
+  outline: 1px solid #ddd;
+  line-height: $fontSize;
+  margin-right: 5px;
+
+  &::after {
+    content: "\a0";
+  }
+
+  &.isChecked {
+    background-color: $color;
+    &::after {
+      content: "✓";
+    }
+  }
+
+  &.isIndeterminate {
+    background-color: orange;
+    &::after {
+      content: "•";
+    }
+  }
+}
